@@ -8,8 +8,6 @@
     "build": "webpack --mode production",
     "lint": "eslint .",
     "doc": "jsdoc -c jsdoc.conf.json",
-    "preshow:coverage": "npm run coverage",
-    "show:coverage": "live-server coverage/lcov-report",
     "preshow:doc": "npm run doc",
     "show:doc": "live-server doc",
     "preshow:dist": "npm run build",
